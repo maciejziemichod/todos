@@ -11,6 +11,8 @@ import './App.css'
 /** Improvements list
  * helpers for localstorage
  * YAGNI (not-done class for example)
+ * favicon
+ * metadata (title etc)
  */
 
 const LS_TODOS_KEY = 'mz_todos';
