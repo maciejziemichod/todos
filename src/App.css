@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  width: 656px;
+}
+
+.container {
+text-align: left;
+}
+.score {
+  height: 64px;
+  position: relative;
+  display: flex;
+  margin-bottom: 64px
+;
+}
+.score__result {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+}
+.score__yes {
+  background-color: #22C55E;
+}
+.score__no {
+  flex-grow: 1;
+  background-color: #EF4444;
+}
+
+.todo-item {
+  font-size: 24px;
+  margin: 12px 0;
+}
+.todo-item:hover {
+  background-color: #3a3a3a;
+}
+.todo-item.done {
+  text-decoration: line-through;
+}
+.todo-item label {
+  display: block;
+}
+.divider {
+  height: 1px;
+  background-color: white;
+  margin: 64px 0 24px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.save {
+  display: flex;
+  gap: 12px;
+}
