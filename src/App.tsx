@@ -13,6 +13,7 @@ import './App.css'
  * YAGNI (not-done class for example)
  * favicon
  * metadata (title etc)
+ * score for time range
  */
 
 const LS_TODOS_KEY = 'mz_todos';
